@@ -1,5 +1,5 @@
 #！/bin/bash
-#cpoy rhel7.iso to pxeserver's directory /mnt
+#cpoy rhel6.iso to pxeserver's directory /mnt
 file1=/mnt/rhel-server-6.6-x86_64-dvd.iso
 if [ ! -f $file1 ];then
 echo 'please copy rhel iso to /mnt and name="rhel-server-6.6-x86_64-dvd.iso"'
